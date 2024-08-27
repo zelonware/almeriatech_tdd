@@ -9,3 +9,23 @@ Enlaces de interés:
 - [Evento en LinkedIn](https://www.linkedin.com/events/7232739967683198976)
 - [Almería Tech en Twitter](https://x.com/AlmeriaTech_es)
 - [Exeal en Twitter](https://x.com/exeal)
+
+### Notes
+
+<details> 
+
+<summary>On building mocks</summary>
+
+Generate mock code:
+
+```
+ flutter pub run build_runner build
+```
+
+Deprecated, instead run:
+
+```
+dart run
+```
+
+</details>
