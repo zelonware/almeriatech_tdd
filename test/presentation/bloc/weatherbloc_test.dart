@@ -57,6 +57,6 @@ void main() {
       wait: const Duration(milliseconds: 500),
       expect: () => [
             WeatherLoading(),
-            const WeatherLoadFailue('Server failure'),
+            const WeatherLoadFailure('Server failure'),
           ]);
 }

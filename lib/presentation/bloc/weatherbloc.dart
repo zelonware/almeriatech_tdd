@@ -13,7 +13,7 @@ class WeatherBloc extends Bloc<WeatherEvent, WeatherState> {
         final result = await usecase.execute(event.city);
         result.fold(
           (failure) {
-            emit(WeatherLoadFailue(failure.message));
+            emit(WeatherLoadFailure(failure.message));
           },
           (data) {
             emit(WeatherLoaded(data));

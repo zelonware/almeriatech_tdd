@@ -21,10 +21,10 @@ class WeatherLoaded extends WeatherState {
   List<Object?> get props => [result];
 }
 
-class WeatherLoadFailue extends WeatherState {
+class WeatherLoadFailure extends WeatherState {
   final String msg;
 
-  const WeatherLoadFailue(this.msg);
+  const WeatherLoadFailure(this.msg);
 
   @override
   List<Object?> get props => [msg];
